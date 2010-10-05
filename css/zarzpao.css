@@ -21,14 +21,16 @@ nav {
   font-family: Futura, Calibri, 'Lucida Sans Unicode', sans-serif;
   font-size: 12px;
   text-transform: uppercase;
+  text-align: center;
   margin: 10px auto;
 }
-nav ul {
-  display: inline;
-  text-align: center;
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 12px;
+}
+nav a:hover {
+  border-bottom: 1px dotted #333;
 }
 
-nav ul li {
-  display: inline;
-  margin: 0 8px;
-}
