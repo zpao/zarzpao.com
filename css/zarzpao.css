@@ -69,7 +69,7 @@ nav a {
   text-decoration: none;
   margin: 0 12px;
 }
-nav a:hover {
+nav a.current, nav a:hover {
   border-bottom: 2px solid #eea680;
 }
 
