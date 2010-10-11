@@ -1,7 +1,6 @@
 // mostly via @elliottkember
 // http://forrst.com/posts/Super-easy_navigation-7g1
 
-// CONSTify
 const NAV_SELECTOR = "nav";
 
 var container = $(NAV_SELECTOR),
@@ -20,4 +19,5 @@ $.each([relativeUrl, urlIncludingRoot, absoluteUrl, basicUrl], function(i, url){
   selectors.push('a[href='+url+']')
 });
 selectors = selectors.join(', ')
+container.find(selectors).addClass('current')
 
