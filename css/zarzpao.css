@@ -1,3 +1,10 @@
+/* Colors:
+ * charcoal: #5a5a62
+ * rose:     eea680
+ * peach:    ffe5b9
+ * blossom:  fcd6cf
+ */
+
 /* A rudimentary "reset" */
 * { margin: 0; padding: 0; }
 
@@ -11,9 +18,40 @@ article, aside, figure, footer, header, hgroup, nav, section {
   background: #fee;
 }
 
+html {
+  background: #eee;
+  font-family: Georgia, serif;
+}
+body {
+}
+
 #container {
+  width: 722px;
+  margin: 0 auto 10px auto;
+  border: 4px solid #fff;
+  border-top: none;
+}
+#container, #container-inner {
+  border-radius: 0 0 10px 10px;
+  -moz-border-radius: 0 0 10px 10px;
+}
+
+#container-inner {
+  padding: 10px;
+  border: 1px solid #999;
+  border-top: none;
+  background: #fff;
+}
+
+/* the header is important */
+header#zarzpao-header a {
+  background: url(../img/header.png);
+  display: block;
   width: 700px;
-  margin: auto;
+  height: 200px;
+}
+header#zarzpao-header a span {
+  display: none;
 }
 
 /* Navigating the ol' dusty trail */
@@ -27,10 +65,11 @@ nav {
 
 nav a {
   color: #333;
+  color: #5a5a62;
   text-decoration: none;
   margin: 0 12px;
 }
 nav a:hover {
-  border-bottom: 1px dotted #333;
+  border-bottom: 2px solid #eea680;
 }
 
