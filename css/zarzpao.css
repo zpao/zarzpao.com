@@ -1,6 +1,7 @@
 /* Colors:
  * charcoal: #5a5a62
- * rose:     eea680
+ * gravel:   989281
+ * rose:     eea6b0
  * peach:    ffe5b9
  * blossom:  fcd6cf
  */
@@ -15,61 +16,137 @@ article, aside, figure, footer, header, hgroup, nav, section {
 
 /* debug coloring */
 #container {
-  background: #fee;
+  /*background: #fee;*/
 }
 
 html {
   background: #d8d8d8;
-  font-family: Georgia, serif;
+  font-family: Verdana, sans-serif;
+  font-size: 11px;
+  color: #333;
+  background: url(../img/Paper0038_2_S.jpg);
 }
 body {
 }
 
 #container {
-  width: 722px;
-  margin: 0 auto 10px auto;
-  border: 4px solid #fff;
-  border-top: none;
-}
-#container, #container-inner {
-  border-radius: 0 0 10px 10px;
-  -moz-border-radius: 0 0 10px 10px;
-}
-
-#container-inner {
-  padding: 10px;
-  border: 1px solid #999;
-  border-top: none;
+  width: 840px;
+  margin: 30px auto 10px auto;
   background: #fff;
+  /* shadows make it a little less harsh */
+  -moz-box-shadow: 0px 0px 15px #666;
+  -webkit-box-shadow: 0px 0px 15px #666;
+  box-shadow: 0px 0px 15px #666;
+  /* curve the top for some sexyness */
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 
-/* the header is important */
-header#zarzpao-header a {
-  background: url(../img/header.png);
-  display: block;
-  width: 700px;
-  height: 200px;
+/* The actual content... it's not really an article per se, but whatever */
+article {
+  /*padding: 0 10px 10px 10px;*/
+  padding: 20px 20px 0 20px;
 }
-header#zarzpao-header a span {
-  display: none;
+article header {
+  width: 400px;
+  height: 600px;
+  float: left;
+}
+article div {
+  float: right;
+  width: 400px;
+}
+article header h1 {
+  text-indent: -10000px
+}
+/* specific headers images */
+article#article-travel header {
+  background: url(../img/header-travel.png);
+}
+/* XXXzpao Add specific styles for each page */
+
+article h2, article h3 {
+  font-family: Futura, Calibri, "Trebuchet MS", sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+article h2 {
+  font-size: 16px;
+}
+article h3 {
+  font-size: 13px;
+}
+
+article p, ul, ol {
+  margin-bottom: 1em;
+}
+article ul, ol {
+  padding-left: 40px;
+}
+
+article p + h2, article p + h3 {
+  margin-top: 2em;
 }
 
 /* Navigating the ol' dusty trail */
 nav {
+  clear: both;
   font-family: Futura, Calibri, 'Lucida Sans Unicode', sans-serif;
-  font-size: 12px;
+  font-size: 11px;
   text-transform: uppercase;
   text-align: center;
-  margin: 10px auto;
+  background: #fcd6cf;
+  padding: 5px 0;
+  border-bottom: 1px solid #fff;
 }
-
 nav a {
   color: #333;
-  color: #5a5a62;
+  color: #989281;
   text-decoration: none;
   margin: 0 12px;
 }
 nav a.current, nav a:hover {
-  border-bottom: 2px solid #eea680;
+  color: #5a5a62;
 }
 
+/* footer? i barely know her */
+footer {
+  clear: both;
+}
+
+h2#h2-travel-california {
+  text-indent: -10000px;
+  background: url(../img/h2-travel-california.png);
+  height: 36px;
+}
+
+/*** PAGE SPECIFIC ***/
+
+/* Fun Facts */
+.fact-1, .fact-2, .fact-3, .fact-4, .fact-5 {
+  /*margin-right: 2em;*/
+  display: block;
+  margin-bottom: 5px;
+  text-align: justify;
+}
+.fact-1 {
+  font-size: 1.3em;
+}
+.fact-2 {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-family: Futura;
+}
+.fact-3 {
+  font-size: 1.6em;
+  font-family: Georgia;
+}
+.fact-4 {
+  font-size: 1.3em;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.fact-5 {
+  font-size: 1em;
+  font-family: Georgia;
+}
