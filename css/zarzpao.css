@@ -60,8 +60,26 @@ article header h1 {
   text-indent: -10000px
 }
 /* specific headers images */
+article#article-funfacts header {
+  background: url(../img/header-funfacts.png);
+}
+article#article-wedding header {
+  background: url(../img/header-wedding.png);
+}
 article#article-travel header {
   background: url(../img/header-travel.png);
+}
+article#article-hotels header {
+  background: url(../img/header-hotels.png);
+}
+article#article-stuff header {
+  background: url(../img/header-stuff.png);
+}
+article#article-registry header {
+  background: url(../img/header-registry.png);
+}
+article#article-rsvp header {
+  background: url(../img/header-rsvp.png);
 }
 /* XXXzpao Add specific styles for each page */
 
