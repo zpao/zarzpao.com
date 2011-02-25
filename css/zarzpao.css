@@ -138,12 +138,39 @@ footer {
   clear: both;
 }
 
-h2#h2-travel-california {
+/* In case we bring those header images back...
+h2 {
   text-indent: -10000px;
-  background: url(../img/h2-travel-california.png);
   height: 36px;
 }
-
+#h2-travel-california {
+  background: url(../img/h2-travel-california.png);
+}
+#h2-travel-around {
+  background: url(../img/h2-travel-around.png);
+}
+#h2-wedding-big-day {
+  background: url(../img/h2-wedding-big-day.png);
+}
+#h2-wedding-weekend {
+  background: url(../img/h2-wedding-weekend.png);
+}
+#h2-hotels-los-gatos {
+  background: url(../img/h2-hotels-los-gatos.png);
+}
+#h2-hotels-santa-cruz {
+  background: url(../img/h2-hotels-santa-cruz.png);
+}
+#h2-hotels-san-francisco {
+  background: url(../img/h2-hotels-san-francisco.png);
+}
+#h2-stuff-around {
+  background: url(../img/h2-stuff-around.png);
+}
+#h2-stuff-elsewhere {
+  background: url(../img/h2-stuff-elsewhere.png);
+}
+*/
 /*** PAGE SPECIFIC ***/
 
 /* Fun Facts */
