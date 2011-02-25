@@ -43,6 +43,16 @@ body {
   border-radius: 5px;
 }
 
+a {
+  text-decoration: none;
+  color: #989281;
+  border-bottom: 1px dotted #989281;
+}
+a:hover {
+  color: #5a5a62;
+  border-bottom: 1px dotted #5a5a62;
+}
+
 /* The actual content... it's not really an article per se, but whatever */
 article {
   /*padding: 0 10px 10px 10px;*/
@@ -128,9 +138,11 @@ nav a {
   color: #989281;
   text-decoration: none;
   margin: 0 12px;
+  border: none;
 }
 nav a.current, nav a:hover {
   color: #5a5a62;
+  border: none;
 }
 
 /* footer? i barely know her */
