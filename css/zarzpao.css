@@ -194,30 +194,3 @@ h2 {
 */
 /*** PAGE SPECIFIC ***/
 
-/* Fun Facts */
-.fact-1, .fact-2, .fact-3, .fact-4, .fact-5 {
-  /*margin-right: 2em;*/
-  display: block;
-  margin-bottom: 5px;
-  text-align: justify;
-}
-.fact-1 {
-  font-size: 1.3em;
-}
-.fact-2 {
-  font-size: 1em;
-  text-transform: uppercase;
-  font-family: Futura;
-}
-.fact-3 {
-  font-size: 1.6em;
-  font-family: Georgia;
-}
-.fact-4 {
-  font-size: 1.3em;
-  font-family: Helvetica, Arial, sans-serif;
-}
-.fact-5 {
-  font-size: 1em;
-  font-family: Georgia;
-}
