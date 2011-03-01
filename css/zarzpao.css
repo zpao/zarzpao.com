@@ -93,6 +93,12 @@ article#article-registry header {
 article#article-rsvp header {
   background: url(../img/header-rsvp.png);
 }
+article#article-home header {
+  float: none;
+  height: 100px;
+  width: 800px;
+  background: url(../img/header-home.png);
+}
 /* XXXzpao Add specific styles for each page */
 
 article h2, article h3 {
@@ -193,4 +199,22 @@ h2 {
 }
 */
 /*** PAGE SPECIFIC ***/
+
+/* Home */
+#slideshow, #slideshow-nav {
+  float: none;
+  margin: auto;
+  width: 600px;
+  text-align: center;
+}
+
+#slideshow-nav a {
+  color: #999;
+  border-bottom: none;
+  font-size: 10px;
+  margin: 3px;
+}
+#slideshow-nav a.activeSlide {
+  color: #666;
+}
 
