@@ -16,7 +16,7 @@ var basicUrl = document.location.pathname.split("/").pop();
 // @elliottkember wrote code using jquery with a bug in it omg!
 // $.each(arr, callback(index, value))
 $.each([relativeUrl, urlIncludingRoot, absoluteUrl, basicUrl], function(i, url){
-  selectors.push('a[href='+url+']')
+  selectors.push('a[href="'+url+'"]')
 });
 selectors = selectors.join(', ')
 container.find(selectors).addClass('current')
