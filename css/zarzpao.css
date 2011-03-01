@@ -66,7 +66,7 @@ article header {
 article div {
   float: right;
   width: 400px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 article header h1 {
   text-indent: -10000px
@@ -104,6 +104,7 @@ article h2, article h3 {
 }
 article h2 {
   font-size: 18px;
+  text-indent: -10px;
 }
 article h3 {
   font-size: 15px;
@@ -115,10 +116,18 @@ article p, ul, ol {
 article ul, ol {
   padding-left: 40px;
 }
+article ul li {
+  list-style: none;
+}
+article ul li + li {
+  margin-top: 2px;
+}
 
-article p + h2, article p + h3,
-article ul + h2, article ul + h3 {
-  margin-top: 2em;
+article p + h2, article ul + h2 {
+  margin-top: 1.5em;
+}
+article p + h3, article ul + h3 {
+  margin-top: 1em;
 }
 
 /* Navigating the ol' dusty trail */
