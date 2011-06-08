@@ -53,6 +53,10 @@ a:hover {
   border-bottom: 1px dotted #5a5a62;
 }
 
+strong {
+  font-weight: bold;
+}
+
 /* The actual content... it's not really an article per se, but whatever */
 article {
   /*padding: 0 10px 10px 10px;*/
